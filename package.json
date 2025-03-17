@@ -1,0 +1,13 @@
+{
+    "name": "deploymaster",
+    "version": "1.0.0",
+    "description": "Plant care tracking application",
+    "main": "server/server.js",
+    "scripts": {
+      "start": "node server/server.js",
+      "build": "cd client && npm install && npm run build"
+    },
+    "engines": {
+      "node": ">=14.0.0"
+    }
+  }
